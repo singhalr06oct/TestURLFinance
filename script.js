@@ -1,6 +1,14 @@
 const ARTICLE_DATA = [
   // FinanceReport (11 Real Articles)
   {
+    id: 'tbt-5',
+    title: 'Thousands Stranded: Major Flight Cancellations Across Australia and New Zealand',
+    excerpt: "Thousands of passengers abandoned as Jetstar, Qantas, Virgin Australia, and Air New Zealand face 97 flight cancellations and over 1,127 delays causing major travel disruptions...",
+    image: 'https://www.financereport.online/articles/image/aussie_flight_chaos.webp',
+    category: 'FinanceReport',
+    url: 'https://www.financereport.online/articles/flight-cancellations-australia-new-zealand.html'
+  },
+  {
     id: 'tbt-4',
     title: 'Financial Impact of the Viva Energy Geelong Refinery Fire',
     excerpt: "Explore the economic fallout from the recent Viva Energy Geelong refinery fire. Learn how the geelong oil refinery incident impacts ASX trading, insurance, and national fuel costs...",
