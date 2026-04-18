@@ -1,6 +1,14 @@
 const ARTICLE_DATA = [
   // FinanceReport (11 Real Articles)
   {
+    id: 'tbt-6',
+    title: 'ZUS Recalculates June Pensions: Polish Retirees See Major Relief',
+    excerpt: "The long-standing dispute over June pensions in Poland is finally over. ZUS has recalculated the payouts, adding up to 163 PLN to retirees' wallets. Read the full financial breakdown...",
+    image: 'https://www.financereport.online/articles/image/zus_pensions_poland.webp',
+    category: 'FinanceReport',
+    url: 'https://www.financereport.online/articles/zus-recalculates-june-pensions-poland.html'
+  },
+  {
     id: 'tbt-5',
     title: 'Thousands Stranded: Major Flight Cancellations Across Australia and New Zealand',
     excerpt: "Thousands of passengers abandoned as Jetstar, Qantas, Virgin Australia, and Air New Zealand face 97 flight cancellations and over 1,127 delays causing major travel disruptions...",
