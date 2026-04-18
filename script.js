@@ -1,6 +1,14 @@
 const ARTICLE_DATA = [
   // FinanceReport (11 Real Articles)
   {
+    id: 'tbt-4',
+    title: 'Financial Impact of the Viva Energy Geelong Refinery Fire',
+    excerpt: "Explore the economic fallout from the recent Viva Energy Geelong refinery fire. Learn how the geelong oil refinery incident impacts ASX trading, insurance, and national fuel costs...",
+    image: 'https://www.financereport.online/articles/image/viva_geelong_fire.webp',
+    category: 'FinanceReport',
+    url: 'https://www.financereport.online/articles/viva-energy-geelong-oil-refinery-fire.html'
+  },
+  {
     id: 'tbt-3',
     title: 'How AI Predicts Stock Market Trends 2026 | Earn More Money with AI Trading',
     excerpt: "Discover how AI predicts stock market trends in 2026 and learn the top use cases and tools. Start leveraging artificial intelligence to earn more money in trading today.....",
