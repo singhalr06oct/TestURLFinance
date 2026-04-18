@@ -2,61 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.financereport.online/index.html</loc>
-    <lastmod>2026-04-13</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <priority>1.0</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.financereport.online/about-us.html</loc>
-    <lastmod>2026-04-13</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <priority>0.5</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.financereport.online/articles.html</loc>
-    <lastmod>2026-04-13</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <priority>0.8</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.financereport.online/comment-policy.html</loc>
-    <lastmod>2026-04-13</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <priority>0.3</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.financereport.online/contact-us.html</loc>
-    <lastmod>2026-04-13</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <priority>0.5</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.financereport.online/cookie-policy.html</loc>
-    <lastmod>2026-04-13</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <priority>0.3</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.financereport.online/disclaimer.html</loc>
-    <lastmod>2026-04-13</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <priority>0.3</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.financereport.online/privacy-policy.html</loc>
-    <lastmod>2026-04-13</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <priority>0.3</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.financereport.online/terms.html</loc>
-    <lastmod>2026-04-13</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <priority>0.3</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.financereport.online/articles/e-urzad-skarbowy-app-poland.html</loc>
     <lastmod>2026-04-16</lastmod>
+    <priority>0.9</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.financereport.online/articles/ai-tools-for-personal-finance-2026.html</loc>
+    <lastmod>2026-04-19</lastmod>
     <priority>0.9</priority>
     <changefreq>daily</changefreq>
   </url>
