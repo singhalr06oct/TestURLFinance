@@ -1,61 +1,21 @@
 const ARTICLE_DATA = [
-  // TinyBigTalks (11 Real Articles)
-  {
-    id: 'tbt-4',
-    title: 'Peter Magyar Wins Hungarian Parliamentary Election 2026 Results',
-    excerpt: "Peter Magyar and the Tisza Party achieve a landslide victory in the 2026 Hungarian parliamentary election, ending Viktor Orbán's 16-year rule with a record voter turnout..",
-    image: 'articles/image/peter_magyar_election_2026_win.webp',
-    category: 'TinyBigTalks',
-    url: 'articles/peter-magyar-hungarian-election-2026.html'
-  },
-  {
-    id: 'tbt-6',
-    title: 'Viva Energy Geelong Oil Refinery Fire and Its Impact on Petrol Prices',
-    excerpt: "A massive fire at the Viva Energy oil refinery in Geelong was extinguished after 12 hours. Discover the cause and the potential impact on Australian petrol prices amid a global fuel crunch....",
-    image: 'https://www.tinybigtalks.online/articles/image/viva_energy_geelong_fire.webp',
-    category: 'TinyBigTalks',
-    url: 'https://www.tinybigtalks.online/articles/viva-energy-geelong-oil-refinery-fire.html'
-  },
-  {
-    id: 'tbt-5',
-    title: 'Polish Tax Office Enters Smartphones: The e-Urząd Skarbowy Revolution',
-    excerpt: "Discover the features of Poland's e-Urząd Skarbowy mobile app. With the tax office now on their smartphones, Poles can file taxes, receive letters, and pay securely via BLIK 24/7...",
-    image: 'https://www.tinybigtalks.online/articles/image/polish_tax_office_app.webp',
-    category: 'TinyBigTalks',
-    url: 'https://www.tinybigtalks.online/articles/e-urzad-skarbowy-app-poland.html'
-  },
-  {
-    id: 'tbt-2',
-    title: 'Euphoria Season 3 Premiere: Date & How to Watch',
-    excerpt: "Get the 'Euphoria' Season 3 premiere details, release date, and full episode schedule. Learn how to watch Zendaya return to HBO Max in April 2026....",
-    image: 'articles/image/euphoria-season-3.webp',
-    category: 'TinyBigTalks',
-    url: 'articles/euphoria-season-3-premiere-how-to-watch.html'
-  },
+  // financereport (11 Real Articles)
   {
     id: 'tbt-1',
-    title: 'Rory McIlroy Wins Masters 2026 Results who win the Masters',
-    excerpt: "Rory McIlroy captures his career Grand Slam winning the 2026 Masters. He beat Scheffler by one shot to claim the $4.5M prize at Augusta National...",
-    image: 'articles/image/rory_mcilroy_masters_2026_win.webp',
-    category: 'TinyBigTalks',
-    url: 'articles/rory-mcilroy-masters-2026-winner.html'
-  },
-  {
-    id: 'tbt-3',
-    title: 'Barcelona vs Atletico Madrid Champions League 2026',
-    excerpt: 'Barcelona put up a stunning first-half comeback but were ultimately eliminated by Atletico Madrid 3-2 on aggregate in the UEFA Champions League 2026 quarter-finals. Full report and player ratings inside..',
-    image: 'https://www.tinybigtalks.online/articles/image/barcelona_atletico_ucl_2026.webp',
-    category: 'TinyBigTalks',
-    url: 'https://www.tinybigtalks.online/articles/barcelona-atletico-madrid-ucl-quarter-final-2026.html'
+    title: 'Polish Tax Office Enters Smartphones: The e-Urząd Skarbowy Revolution',
+    excerpt: "Discover the features of Poland's e-Urząd Skarbowy mobile app. With the tax office now on their smartphones, Poles can file taxes, receive letters, and pay securely via BLIK 24/7...",
+    image: 'https://www.financereport.online/articles/image/polish_tax_office_app.webp',
+    category: 'financereport',
+    url: 'https://www.financereport.online/articles/e-urzad-skarbowy-app-poland.html'
   },
   // Other categories (restoring previous counts)
   ...Array.from({ length: 5 }, (_, i) => ({
     id: `fin-${i + 1}`,
-    title: `Finance Strategy ${i + 1}`,
+    title: `TinyBigTalks Strategy ${i + 1}`,
     excerpt: 'Coming soon...',
     image: 'assets/blog-default.png',
-    category: 'Finance',
-    url: 'https://www.financereport.online/'
+    category: 'TinyBigTalks',
+    url: 'https://www.tinybigtalks.online/'
   })),
   ...Array.from({ length: 5 }, (_, i) => ({
     id: `tech-${i + 1}`,
@@ -155,8 +115,8 @@ function renderHomeSections() {
 
   // Populate sections by ID
   const map = {
-    'tbt-grid': { cat: 'TinyBigTalks', limit: 8 },
-    'finance-grid': { cat: 'Finance', limit: 5 },
+    'tbt-grid': { cat: 'FinanceReport', limit: 8 },
+    'tinybigtalks-grid': { cat: 'TinyBigTalks', limit: 5 },
     'tech-grid': { cat: 'Tech', limit: 5 },
     'lifestyle-grid': { cat: 'EOD Lifestyle', limit: 5 },
     'cricket-grid': { cat: 'Cricket', limit: 5 },
@@ -220,7 +180,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const isArticlesPage = path.includes('articles.html');
 
   if (isArticlesPage) {
-    const tbtArticles = ARTICLE_DATA.filter(a => a.category === 'TinyBigTalks');
+    const tbtArticles = ARTICLE_DATA.filter(a => a.category === 'FinanceReport');
     renderVerticalArticles(tbtArticles, 'articles-feed');
   } else {
     // Check for category in URL
@@ -275,4 +235,3 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
-

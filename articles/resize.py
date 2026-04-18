@@ -2,7 +2,7 @@ import os
 from PIL import Image, ImageDraw, ImageFont
 
 img_path = r'C:\Users\rohit\.gemini\antigravity\brain\fdb3f11b-0fd2-448a-a820-b03722f40a3b\geelong_refinery_fire_1776324478246.png'
-out_path = r'c:\Users\rohit\.gemini\antigravity\playground\tensor-granule\TestURLPages\articles\image\viva_energy_geelong_fire.webp'
+out_path = r'c:\Users\rohit\.gemini\antigravity\playground\singhalr\TestURLFinance\articles\image\viva_energy_geelong_fire.webp'
 
 os.makedirs(os.path.dirname(out_path), exist_ok=True)
 
@@ -12,8 +12,8 @@ img = img.convert("RGBA")
 overlay = Image.new("RGBA", img.size, (0, 0, 0, 0))
 draw = ImageDraw.Draw(overlay)
 
-# TinyBigTalks text at bottom right
-brand_text = "TinyBigTalks.online"
+# financereport text at bottom right
+brand_text = "financereport.online"
 try:
     brand_font = ImageFont.truetype("arial.ttf", 20)
 except IOError:

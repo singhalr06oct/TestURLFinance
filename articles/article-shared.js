@@ -15,58 +15,18 @@
         <div class="ads-wrapper">
                 <div>
                     <!-- Start Banner Addsterra TAG -->
-                    <script>
-                        atOptions = {
-                        'key' : '6690eff882cbaf9cd9954f2407e29807',
-                        'format' : 'iframe',
-                        'height' : 250,
-                        'width' : 300,
-                        'params' : {}
-                        };
-                    </script>
-                    <script src="https://www.highperformanceformat.com/6690eff882cbaf9cd9954f2407e29807/invoke.js"></script>
                     <!-- End Banner Addsterra TAG -->
                 </div>
                 <div>
                     <!-- Start Banner Addsterra TAG -->
-                    <script>
-                    atOptions = {
-                        'key' : '6690eff882cbaf9cd9954f2407e29807',
-                        'format' : 'iframe',
-                        'height' : 250,
-                        'width' : 300,
-                        'params' : {}
-                    };
-                    </script>
-                    <script src="https://www.highperformanceformat.com/6690eff882cbaf9cd9954f2407e29807/invoke.js"></script>
                     <!-- End Banner Addsterra TAG -->
                 </div>
                 <div>
                     <!-- Start Banner Addsterra TAG -->
-                    <script>
-                    atOptions = {
-                        'key' : '6690eff882cbaf9cd9954f2407e29807',
-                        'format' : 'iframe',
-                        'height' : 250,
-                        'width' : 300,
-                        'params' : {}
-                    };
-                    </script>
-                    <script src="https://www.highperformanceformat.com/6690eff882cbaf9cd9954f2407e29807/invoke.js"></script>
                     <!-- End Banner Addsterra TAG -->
                 </div>
                 <div>
                     <!-- Start Banner Addsterra TAG -->
-                    <script>
-                    atOptions = {
-                        'key' : '6690eff882cbaf9cd9954f2407e29807',
-                        'format' : 'iframe',
-                        'height' : 250,
-                        'width' : 300,
-                        'params' : {}
-                    };
-                    </script>
-                    <script src="https://www.highperformanceformat.com/6690eff882cbaf9cd9954f2407e29807/invoke.js"></script>
                     <!-- End Banner Addsterra TAG -->
                 </div>
             </div>
@@ -87,7 +47,7 @@
     <footer>
         <div class="container">
             <nav class="footer-nav">
-                <a href="https://www.financereport.online/">Finance</a>
+                <a href="https://www.tinybigtalks.online/">TinyBigTalks</a>
                 <a href="https://www.techreport.online/">Tech</a>
                 <a href="https://www.eodreport.online/">EOD Lifestyle</a>
                 <a href="https://www.cricketreport.online/">Cricket</a>
@@ -112,7 +72,7 @@
                 <a href="../cookie-policy.html">Cookie Policy</a>
             </div>
             <div class="footer-bottom">
-                <p>© 2026 tinybigtalks.online. All Rights Reserved.</p>
+                <p>© 2026 www.financereport.online. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
