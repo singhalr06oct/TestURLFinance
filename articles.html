@@ -8,13 +8,11 @@
         content="default-src 'self' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' https: data:; connect-src 'self' https:; frame-src 'self' https:;">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <meta charset="UTF-8">
-    <link rel="canonical" href="https://www.tinybigtalks.online/index.html">
+    <link rel="canonical" href="https://www.tinybigtalks.online/articles.html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TinyBigTalks | Insightful Blog on Finance, Tech, and more</title>
+    <title>TinyBigTalks | All Articles</title>
     <link rel="icon" type="image/png" href="favicon.png">
-    <link rel="preload" as="image" href="assets/logo.png">
-    <meta name="description"
-        content="Stay updated with the latest in Finance, Tech, Lifestyle, and Sports at TinyBigTalks.">
+    <meta name="description" content="Explore all TinyBigTalks articles.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -62,13 +60,12 @@
                 </div>
 
                 <!-- Logo -->
-                <a href="https://www.tinybigtalks.online/index.html" class="logo"><img src="assets/logo.png"
-                        alt="TinyBigTalks Logo" width="180" height="65"></a>
+                <a href="index.html" class="logo"><img src="assets/logo.png" alt="TinyBigTalks Logo"></a>
 
                 <!-- Web Search -->
                 <div class="search-container-web">
                     <input type="text" id="web-search" placeholder="Search articles...">
-                    <button class="search-icon-btn" aria-label="Submit Search">
+                    <button class="search-icon-btn">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <circle cx="11" cy="11" r="8"></circle>
@@ -123,7 +120,6 @@
     </header>
 
     <main class="container">
-        <!-- TinyBigTalks Section -->
         <div class="ads-wrapper">
             <div>
                 <!-- Start Banner Addsterra TAG -->
@@ -182,103 +178,24 @@
                 <!-- End Banner Addsterra TAG -->
             </div>
         </div>
-        <section class="category-section">
-            <div class="category-header">
-                <span class="category-label">TinyBigTalks</span>
-                <div class="category-line"></div>
-            </div>
-            <div id="tbt-grid" class="articles-grid grid-4-cols">
-                <!-- Populated by JS -->
-            </div>
-            <div class="read-all-container">
-                <a href="https://www.tinybigtalks.online/articles.html" class="read-all-btn">Read all articles</a>
-            </div>
-        </section>
-
-        <!-- Finance Section -->
-        <section class="category-section">
-            <div class="category-header">
-                <span class="category-label">Finance</span>
-                <div class="category-line"></div>
-            </div>
-            <div id="finance-grid" class="articles-grid grid-5-cols">
-                <!-- Populated by JS -->
-            </div>
-        </section>
-
-        <!-- Tech Section -->
-        <section class="category-section">
-            <div class="category-header">
-                <span class="category-label">Tech</span>
-                <div class="category-line"></div>
-            </div>
-            <div id="tech-grid" class="articles-grid grid-5-cols">
-                <!-- Populated by JS -->
-            </div>
-        </section>
-
-        <!-- EOD LifeStyle Section -->
-        <section class="category-section">
-            <div class="category-header">
-                <span class="category-label">EOD LifeStyle</span>
-                <div class="category-line"></div>
-            </div>
-            <div id="lifestyle-grid" class="articles-grid grid-5-cols">
-                <!-- Populated by JS -->
-            </div>
-        </section>
-
-        <!-- Cricket Section -->
-        <section class="category-section">
-            <div class="category-header">
-                <span class="category-label">Cricket</span>
-                <div class="category-line"></div>
-            </div>
-            <div id="cricket-grid" class="articles-grid grid-5-cols">
-                <!-- Populated by JS -->
-            </div>
-        </section>
-
-        <!-- Football Section -->
-        <section class="category-section">
-            <div class="category-header">
-                <span class="category-label">Football</span>
-                <div class="category-line"></div>
-            </div>
-            <div id="football-grid" class="articles-grid grid-5-cols">
-                <!-- Populated by JS -->
-            </div>
-        </section>
-
-        <!-- Race Section -->
-        <section class="category-section">
-            <div class="category-header">
-                <span class="category-label">Race</span>
-                <div class="category-line"></div>
-            </div>
-            <div id="race-grid" class="articles-grid grid-5-cols">
-                <!-- Populated by JS -->
-            </div>
-        </section>
-
-        <!-- Golf Section -->
-        <section class="category-section">
-            <div class="category-header">
-                <span class="category-label">Golf</span>
-                <div class="category-line"></div>
-            </div>
-            <div id="golf-grid" class="articles-grid grid-5-cols">
-                <!-- Populated by JS -->
-            </div>
-        </section>
-
-        <!-- Search Results Grid (Hidden by default, shown during search) -->
+        <!-- Search Results Grid (Initially Hidden) -->
         <div id="search-results-section" style="display: none;">
             <div class="category-header">
                 <span class="category-label">Search Results</span>
                 <div class="category-line"></div>
             </div>
             <div id="search-grid" class="articles-grid grid-4-cols"></div>
+        </div>
+
+        <div id="articles-feed-section">
+            <div class="category-header" style="margin-top: 40px;">
+                <span class="category-label">All Articles</span>
+                <div class="category-line"></div>
+            </div>
+
+            <div id="articles-feed" class="articles-vertical-feed">
+                <!-- Populated by JS -->
+            </div>
         </div>
     </main>
 
@@ -390,12 +307,13 @@
         </div>
         <input type="text" id="mobile-search-input" class="mobile-search-input" placeholder="Search the blog...">
         <div id="mobile-search-results" style="margin-top: 20px;">
-            <!-- Results show up in the main grid, but we could add separate logic here -->
+            <!-- Results show up in the main grid -->
         </div>
     </div>
 
-    <script src="translator.js" defer></script>
-    <script src="script.js" defer></script>
+    <script src="translator.js"></script>
+    <script src="script.js"></script>
+
 </body>
 
 </html>
