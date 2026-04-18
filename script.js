@@ -1,11 +1,11 @@
 const ARTICLE_DATA = [
-  // financereport (11 Real Articles)
+  // FinanceReport (11 Real Articles)
   {
     id: 'tbt-1',
     title: 'Polish Tax Office Enters Smartphones: The e-Urząd Skarbowy Revolution',
     excerpt: "Discover the features of Poland's e-Urząd Skarbowy mobile app. With the tax office now on their smartphones, Poles can file taxes, receive letters, and pay securely via BLIK 24/7...",
     image: 'https://www.financereport.online/articles/image/polish_tax_office_app.webp',
-    category: 'financereport',
+    category: 'FinanceReport',
     url: 'https://www.financereport.online/articles/e-urzad-skarbowy-app-poland.html'
   },
   // Other categories (restoring previous counts)
