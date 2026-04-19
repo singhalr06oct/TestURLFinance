@@ -5,7 +5,7 @@ const ARTICLE_DATA = [
     title: 'Compare Best Credit Cards in United States, India, Australia, Japan, United Kingdom (2026)',
     excerpt: "An in-depth 2026 comparison of the best credit cards across the United States, India, Australia, Japan, and the UK. Discover top travel and cashback rewards globally.",
     image: 'https://www.financereport.online/articles/image/compare_global_credit_cards.webp',
-    category: 'TinyBigTalks',
+    category: 'FinanceReport',
     url: 'https://www.financereport.online/articles/compare-global-credit-cards-2026.html'
   },
   {
