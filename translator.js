@@ -54,7 +54,7 @@
         window.googleTranslateElementInit = function () {
             new google.translate.TranslateElement({
                 pageLanguage: 'en',
-                includedLanguages: 'en,es,fr,de,pl,zh-CN,hi,pt,ru,ja,ar,bn,ur,ko',
+                includedLanguages: 'en,es,fr,de,pl,zh-CN,hi,pt,ru,ja,ar,bn,ur,ko,pa,mr,ta,te,kn,gu,id,vi,th,nl,it,sv,no,da,hu,el,tr',
                 layout: google.translate.TranslateElement.InlineLayout.SIMPLE
             }, 'google_translate_element');
         };
