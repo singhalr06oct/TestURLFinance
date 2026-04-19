@@ -49,14 +49,38 @@ const ARTICLE_DATA = [
     url: 'https://www.financereport.online/articles/e-urzad-skarbowy-app-poland.html'
   },
   // Other categories (restoring previous counts)
-  ...Array.from({ length: 5 }, (_, i) => ({
-    id: `fin-${i + 1}`,
-    title: `TinyBigTalks Strategy ${i + 1}`,
-    excerpt: 'Coming soon...',
-    image: 'assets/blog-default.png',
+  {
+    id: 'tinybigtalks-1',
+    title: 'Euphoria Season 3 Premiere: Date & How to Watch',
+    excerpt: "Get the 'Euphoria' Season 3 premiere details, release date, and full episode schedule. Learn how to watch Zendaya return to HBO Max in April 2026....",
+    image: 'https://www.tinybigtalks.online/articles/image/euphoria_season_3_premiere.webp',
     category: 'TinyBigTalks',
-    url: 'https://www.tinybigtalks.online/'
-  })),
+    url: 'https://www.tinybigtalks.online/articles/euphoria-season-3-premiere-how-to-watch.html'
+  },
+  {
+    id: 'tinybigtalks-2',
+    title: 'Viva Energy Geelong Oil Refinery Fire and Its Impact on Petrol Prices',
+    excerpt: "A massive fire at the Viva Energy oil refinery in Geelong was extinguished after 12 hours. Discover the cause and the potential impact on Australian petrol prices amid a global fuel crunch...",
+    image: 'https://www.tinybigtalks.online/articles/image/viva_energy_geelong_fire.webp',
+    category: 'TinyBigTalks',
+    url: 'https://www.tinybigtalks.online/articles/viva-energy-geelong-oil-refinery-fire.html'
+  },
+  {
+    id: 'tinybigtalks-3',
+    title: 'Peter Magyar Wins Hungarian Parliamentary Election 2026 Results',
+    excerpt: "Peter Magyar and the Tisza Party achieve a landslide victory in the 2026 Hungarian parliamentary election, ending Viktor Orbán's 16-year rule with a record voter turnout....",
+    image: 'https://www.tinybigtalks.online/articles/image/peter_magyar_election_2026_win.webp',
+    category: 'TinyBigTalks',
+    url: 'https://www.tinybigtalks.online/articles/peter-magyar-hungarian-election-2026.html'
+  },
+  //   ...Array.from({ length: 5 }, (_, i) => ({
+  //   id: `tinybigtalks-${i + 1}`,
+  //   title: `TinyBigTalks Strategy ${i + 1}`,
+  //   excerpt: 'Coming soon...',
+  //   image: 'assets/blog-default.png',
+  //   category: 'TinyBigTalks',
+  //   url: 'https://www.tinybigtalks.online/'
+  // })),
   ...Array.from({ length: 5 }, (_, i) => ({
     id: `tech-${i + 1}`,
     title: `Future Tech ${i + 1}`,
