@@ -2,8 +2,8 @@ import os
 import textwrap
 from PIL import Image, ImageDraw, ImageFont
 
-img_path = r'C:\Users\rohit\.gemini\antigravity\brain\fcc9557c-2ec4-484f-8096-f3039ec63d96\base_top_7_no_fee_cards_1776593911662.png'
-out_path = r'c:\Users\rohit\.gemini\antigravity\playground\singhalr\TestURLFinance\articles\image\top_7_no_fee_cards.webp'
+img_path = r'C:\Users\rohit\.gemini\antigravity\brain\fcc9557c-2ec4-484f-8096-f3039ec63d96\base_personal_loans_2026_1776594558142.png'
+out_path = r'c:\Users\rohit\.gemini\antigravity\playground\singhalr\TestURLFinance\articles\image\best_personal_loans_2026.webp'
 
 os.makedirs(os.path.dirname(out_path), exist_ok=True)
 
@@ -31,9 +31,9 @@ draw.rectangle((brand_x-8, brand_y-5, brand_x+brand_w+8, brand_y+brand_h+5), fil
 draw.text((brand_x, brand_y), brand_text, fill="white", font=brand_font)
 
 # Main Title Text
-headline_text = "Top 7 No Annual Fee Credit Cards\nHidden Rewards You're Missing"
+headline_text = "Best Personal Loan Rates in the U.S. (2026)\nFull Lender Comparison"
 try:
-    headline_font = ImageFont.truetype("arialbd.ttf", 36)
+    headline_font = ImageFont.truetype("arialbd.ttf", 34)
 except IOError:
     try:
         headline_font = ImageFont.truetype("arial.ttf", 32)
