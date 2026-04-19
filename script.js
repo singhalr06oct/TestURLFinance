@@ -1,6 +1,14 @@
 const ARTICLE_DATA = [
   // FinanceReport (11 Real Articles)
   {
+    id: 'tbt-4',
+    title: 'Compare Best Credit Cards in United States, India, Australia, Japan, United Kingdom (2026)',
+    excerpt: "An in-depth 2026 comparison of the best credit cards across the United States, India, Australia, Japan, and the UK. Discover top travel and cashback rewards globally.",
+    image: 'https://www.financereport.online/articles/image/compare_global_credit_cards.webp',
+    category: 'TinyBigTalks',
+    url: 'https://www.financereport.online/articles/compare-global-credit-cards-2026.html'
+  },
+  {
     id: 'tbt-7',
     title: 'Best Credit Cards in the U.S. (2026) – $500+ Signup Bonus Offers Compared',
     excerpt: "Discover the best credit cards in the U.S. for 2026 that offer sign-up bonuses of $500 or more in cash back and travel rewards. Compare top picks and maximize your benefits.",

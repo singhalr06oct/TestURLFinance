@@ -2,8 +2,8 @@ import os
 import textwrap
 from PIL import Image, ImageDraw, ImageFont
 
-img_path = r'C:\Users\rohit\.gemini\antigravity\brain\fcc9557c-2ec4-484f-8096-f3039ec63d96\base_credit_cards_2026_1776590621554.png'
-out_path = r'c:\Users\rohit\.gemini\antigravity\playground\singhalr\TestURLFinance\articles\image\best_credit_cards_2026.webp'
+img_path = r'C:\Users\rohit\.gemini\antigravity\brain\fcc9557c-2ec4-484f-8096-f3039ec63d96\base_global_credit_cards_2026_1776590906090.png'
+out_path = r'c:\Users\rohit\.gemini\antigravity\playground\singhalr\TestURLFinance\articles\image\compare_global_credit_cards.webp'
 
 os.makedirs(os.path.dirname(out_path), exist_ok=True)
 
@@ -14,7 +14,7 @@ overlay = Image.new("RGBA", img.size, (0, 0, 0, 0))
 draw = ImageDraw.Draw(overlay)
 
 # financereport text at bottom right
-brand_text = "FinanceReport.online"
+brand_text = "TinyBigTalks.online"
 try:
     brand_font = ImageFont.truetype("arialbd.ttf", 22)
 except IOError:
@@ -31,7 +31,7 @@ draw.rectangle((brand_x-8, brand_y-5, brand_x+brand_w+8, brand_y+brand_h+5), fil
 draw.text((brand_x, brand_y), brand_text, fill="white", font=brand_font)
 
 # Main Title Text
-headline_text = "Best Credit Cards in the U.S. (2026)\n$500+ Signup Bonus Offers Compared"
+headline_text = "Compare Best Credit Cards Globally (2026)\nUSA, India, Australia, Japan, UK"
 try:
     headline_font = ImageFont.truetype("arialbd.ttf", 36)
 except IOError:
