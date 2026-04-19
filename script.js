@@ -81,47 +81,47 @@ const ARTICLE_DATA = [
   //   category: 'TinyBigTalks',
   //   url: 'https://www.tinybigtalks.online/'
   // })),
-  ...Array.from({ length: 5 }, (_, i) => ({
-    id: `tech-${i + 1}`,
-    title: `Future Tech ${i + 1}`,
-    excerpt: 'Coming soon...',
-    image: 'assets/blog-default.png',
-    category: 'Tech',
-    url: 'https://www.techreport.online/'
-  })),
-  ...Array.from({ length: 5 }, (_, i) => ({
-    id: `life-${i + 1}`,
-    title: `Balanced Life ${i + 1}`,
-    excerpt: 'Coming soon...',
-    image: 'assets/blog-default.png',
-    category: 'EOD Lifestyle',
-    url: 'https://www.eodreport.online/'
-  })),
-  ...Array.from({ length: 5 }, (_, i) => ({
-    id: `cric-${i + 1}`,
-    title: `Cricket Highlights ${i + 1}`,
-    excerpt: 'Coming soon...',
-    image: 'assets/blog-default.png',
-    category: 'Cricket',
-    url: 'https://www.cricketreport.online/'
-  })),
-  ...Array.from({ length: 5 }, (_, i) => ({
-    id: `foot-${i + 1}`,
-    title: `Football World ${i + 1}`,
-    excerpt: 'Coming soon...',
-    image: 'assets/blog-default.png',
-    category: 'Football',
-    url: 'https://www.footballreport.online/'
-  })),
-  ...Array.from({ length: 5 }, (_, i) => ({
-    id: `race-${i + 1}`,
-    title: `Racing Series ${i + 1}`,
-    excerpt: 'Coming soon...',
-    image: 'assets/blog-default.png',
-    category: 'Race',
-    url: 'https://www.racenews.online/'
-  })),
-  ...Array.from({ length: 5 }, (_, i) => ({
+  // ...Array.from({ length: 5 }, (_, i) => ({
+  //   id: `tech-${i + 1}`,
+  //   title: `Future Tech ${i + 1}`,
+  //   excerpt: 'Coming soon...',
+  //   image: 'assets/blog-default.png',
+  //   category: 'Tech',
+  //   url: 'https://www.techreport.online/'
+  // })),
+  // ...Array.from({ length: 5 }, (_, i) => ({
+  //   id: `life-${i + 1}`,
+  //   title: `Balanced Life ${i + 1}`,
+  //   excerpt: 'Coming soon...',
+  //   image: 'assets/blog-default.png',
+  //   category: 'EOD Lifestyle',
+  //   url: 'https://www.eodreport.online/'
+  // })),
+  // ...Array.from({ length: 5 }, (_, i) => ({
+  //   id: `cric-${i + 1}`,
+  //   title: `Cricket Highlights ${i + 1}`,
+  //   excerpt: 'Coming soon...',
+  //   image: 'assets/blog-default.png',
+  //   category: 'Cricket',
+  //   url: 'https://www.cricketreport.online/'
+  // })),
+  // ...Array.from({ length: 5 }, (_, i) => ({
+  //   id: `foot-${i + 1}`,
+  //   title: `Football World ${i + 1}`,
+  //   excerpt: 'Coming soon...',
+  //   image: 'assets/blog-default.png',
+  //   category: 'Football',
+  //   url: 'https://www.footballreport.online/'
+  // })),
+  // ...Array.from({ length: 5 }, (_, i) => ({
+  //   id: `race-${i + 1}`,
+  //   title: `Racing Series ${i + 1}`,
+  //   excerpt: 'Coming soon...',
+  //   image: 'assets/blog-default.png',
+  //   category: 'Race',
+  //   url: 'https://www.racenews.online/'
+  // })),
+  ...Array.from({ length: 2 }, (_, i) => ({
     id: `golf-${i + 1}`,
     title: `Golf Greens ${i + 1}`,
     excerpt: 'Coming soon...',
