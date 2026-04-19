@@ -1,6 +1,14 @@
 const ARTICLE_DATA = [
   // FinanceReport (11 Real Articles)
   {
+    id: 'tbt-11',
+    title: 'Top 7 No Annual Fee Credit Cards (Hidden Rewards You\'re Missing)',
+    excerpt: "Stop paying annual fees to get premium rewards. Discover the Top 7 no annual fee credit cards in 2026 and unlock the hidden cash back and travel rewards you are secretly missing out on.",
+    image: 'https://www.financereport.online/articles/image/top_7_no_fee_cards.webp',
+    category: 'FinanceReport',
+    url: 'https://www.financereport.online/articles/top-7-no-annual-fee-credit-cards.html'
+  },
+  {
     id: 'tbt-4',
     title: 'Compare Best Credit Cards in United States, India, Australia, Japan, United Kingdom (2026)',
     excerpt: "An in-depth 2026 comparison of the best credit cards across the United States, India, Australia, Japan, and the UK. Discover top travel and cashback rewards globally.",
