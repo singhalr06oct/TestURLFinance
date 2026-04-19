@@ -16,6 +16,18 @@
     color: #444;
 }
 
+.content a {
+    color: #007bff;
+    text-decoration: underline;
+    font-weight: 600;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.content a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+
 /* Removed redundant inline styles for .back-link and .hero-img */
 
 
