@@ -53,7 +53,7 @@ const ARTICLE_DATA = [
     id: 'tinybigtalks-1',
     title: 'Euphoria Season 3 Premiere: Date & How to Watch',
     excerpt: "Get the 'Euphoria' Season 3 premiere details, release date, and full episode schedule. Learn how to watch Zendaya return to HBO Max in April 2026....",
-    image: 'https://www.tinybigtalks.online/articles/image/euphoria_season_3_premiere.webp',
+    image: 'https://www.tinybigtalks.online/articles/image/euphoria-season-3.webp',
     category: 'TinyBigTalks',
     url: 'https://www.tinybigtalks.online/articles/euphoria-season-3-premiere-how-to-watch.html'
   },
