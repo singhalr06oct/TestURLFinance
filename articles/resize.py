@@ -1,8 +1,8 @@
 import os
 from PIL import Image, ImageDraw, ImageFont
 
-img_path = r'C:\Users\rohit\.gemini\antigravity\brain\fdb3f11b-0fd2-448a-a820-b03722f40a3b\geelong_refinery_fire_1776324478246.png'
-out_path = r'c:\Users\rohit\.gemini\antigravity\playground\singhalr\TestURLFinance\articles\image\viva_energy_geelong_fire.webp'
+img_path = r'C:\Users\rohit\.gemini\antigravity\brain\fcc9557c-2ec4-484f-8096-f3039ec63d96\best_credit_cards_2026_1776590295008.png'
+out_path = r'c:\Users\rohit\.gemini\antigravity\playground\singhalr\TestURLFinance\articles\image\best_credit_cards_2026.webp'
 
 os.makedirs(os.path.dirname(out_path), exist_ok=True)
 
@@ -13,7 +13,7 @@ overlay = Image.new("RGBA", img.size, (0, 0, 0, 0))
 draw = ImageDraw.Draw(overlay)
 
 # financereport text at bottom right
-brand_text = "financereport.online"
+brand_text = "FinanceReport.online"
 try:
     brand_font = ImageFont.truetype("arial.ttf", 20)
 except IOError:
@@ -29,7 +29,7 @@ draw.rectangle((brand_x-5, brand_y-5, brand_x+brand_w+5, brand_y+brand_h+5), fil
 draw.text((brand_x, brand_y), brand_text, fill="white", font=brand_font)
 
 # Main Title Text
-headline_text = "Viva Energy Geelong Refinery Fire:\nImpact on Petrol Prices"
+headline_text = "Best Credit Cards in the U.S. (2026)\n$500+ Signup Bonus Offers Compared"
 try:
     headline_font = ImageFont.truetype("arialbd.ttf", 36)
 except IOError:

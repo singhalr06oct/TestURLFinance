@@ -1,6 +1,14 @@
 const ARTICLE_DATA = [
   // FinanceReport (11 Real Articles)
   {
+    id: 'tbt-7',
+    title: 'Best Credit Cards in the U.S. (2026) – $500+ Signup Bonus Offers Compared',
+    excerpt: "Discover the best credit cards in the U.S. for 2026 that offer sign-up bonuses of $500 or more in cash back and travel rewards. Compare top picks and maximize your benefits.",
+    image: 'https://www.financereport.online/articles/image/best_credit_cards_2026.webp',
+    category: 'FinanceReport',
+    url: 'https://www.financereport.online/articles/best-credit-cards-us-2026.html'
+  },
+  {
     id: 'tbt-6',
     title: 'ZUS Recalculates June Pensions: Polish Retirees See Major Relief',
     excerpt: "The long-standing dispute over June pensions in Poland is finally over. ZUS has recalculated the payouts, adding up to 163 PLN to retirees' wallets. Read the full financial breakdown...",
