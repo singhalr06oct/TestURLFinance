@@ -1,7 +1,8 @@
 import os
+import textwrap
 from PIL import Image, ImageDraw, ImageFont
 
-img_path = r'C:\Users\rohit\.gemini\antigravity\brain\fcc9557c-2ec4-484f-8096-f3039ec63d96\best_credit_cards_2026_1776590295008.png'
+img_path = r'C:\Users\rohit\.gemini\antigravity\brain\fcc9557c-2ec4-484f-8096-f3039ec63d96\base_credit_cards_2026_1776590621554.png'
 out_path = r'c:\Users\rohit\.gemini\antigravity\playground\singhalr\TestURLFinance\articles\image\best_credit_cards_2026.webp'
 
 os.makedirs(os.path.dirname(out_path), exist_ok=True)
@@ -15,17 +16,18 @@ draw = ImageDraw.Draw(overlay)
 # financereport text at bottom right
 brand_text = "FinanceReport.online"
 try:
-    brand_font = ImageFont.truetype("arial.ttf", 20)
+    brand_font = ImageFont.truetype("arialbd.ttf", 22)
 except IOError:
     brand_font = ImageFont.load_default()
 
 bbox = draw.textbbox((0, 0), brand_text, font=brand_font)
 brand_w = bbox[2] - bbox[0]
 brand_h = bbox[3] - bbox[1]
-brand_x = img.width - brand_w - 15
-brand_y = img.height - brand_h - 15
+brand_x = img.width - brand_w - 20
+brand_y = img.height - brand_h - 20
 
-draw.rectangle((brand_x-5, brand_y-5, brand_x+brand_w+5, brand_y+brand_h+5), fill=(0, 0, 0, 180))
+# Box for brand
+draw.rectangle((brand_x-8, brand_y-5, brand_x+brand_w+8, brand_y+brand_h+5), fill=(0, 0, 0, 180))
 draw.text((brand_x, brand_y), brand_text, fill="white", font=brand_font)
 
 # Main Title Text
@@ -44,7 +46,9 @@ headline_h = headline_bbox[3] - headline_bbox[1]
 
 title_x = 20
 title_y = 20
-draw.rectangle((title_x-10, title_y-10, title_x+headline_w+10, title_y+headline_h+10), fill=(0, 0, 0, 200))
+
+# Draw background for title so it's strictly readable
+draw.rectangle((title_x-10, title_y-10, title_x+headline_w+20, title_y+headline_h+15), fill=(0, 0, 0, 190))
 draw.text((title_x, title_y), headline_text, fill=(255, 255, 255), font=headline_font)
 
 img = Image.alpha_composite(img, overlay).convert("RGB")
