@@ -72,7 +72,7 @@ const ARTICLE_DATA = [
     image: 'https://www.tinybigtalks.online/articles/image/peter_magyar_election_2026_win.webp',
     category: 'TinyBigTalks',
     url: 'https://www.tinybigtalks.online/articles/peter-magyar-hungarian-election-2026.html'
-  },
+  }
   //   ...Array.from({ length: 5 }, (_, i) => ({
   //   id: `tinybigtalks-${i + 1}`,
   //   title: `TinyBigTalks Strategy ${i + 1}`,
@@ -121,14 +121,14 @@ const ARTICLE_DATA = [
   //   category: 'Race',
   //   url: 'https://www.racenews.online/'
   // })),
-  ...Array.from({ length: 2 }, (_, i) => ({
-    id: `golf-${i + 1}`,
-    title: `Golf Greens ${i + 1}`,
-    excerpt: 'Coming soon...',
-    image: 'assets/blog-default.png',
-    category: 'Golf',
-    url: 'https://www.golfreport.online/'
-  }))
+  // ...Array.from({ length: 2 }, (_, i) => ({
+  //   id: `golf-${i + 1}`,
+  //   title: `Golf Greens ${i + 1}`,
+  //   excerpt: 'Coming soon...',
+  //   image: 'assets/blog-default.png',
+  //   category: 'Golf',
+  //   url: 'https://www.golfreport.online/'
+  // }))
 ];
 
 function renderArticles(articles, containerId = 'search-grid') {
