@@ -13,11 +13,10 @@
         </div>
 
         <div class="ads-wrapper">
-                <div>
-                </div>
-                <div>
-                </div>
+            <div>
+                <div data-mndbanid="54991efd-40d1-4adc-a438-3ba3f6674c0e"></div>
             </div>
+        </div>
 
         <div class="comments-section">
             <h3>Leave your thoughts</h3>
@@ -28,6 +27,12 @@
             </form>
             <div id="comments-display" class="comments-list">
                 <div class="no-comments">Loading comments...</div>
+            </div>
+        </div>
+        
+        <div class="ads-wrapper">
+            <div>
+                <div data-mndbanid="54991efd-40d1-4adc-a438-3ba3f6674c0e"></div>
             </div>
         </div>
     </section>
