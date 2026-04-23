@@ -1,6 +1,14 @@
 const ARTICLE_DATA = [
   // FinanceReport (11 Real Articles)
   {
+    id: 'tbt-14',
+    title: "Octopus Go Price Rise 2026: May Update on Tariffs & Rates",
+    excerpt: "The Octopus Go price increase 2026 is officially here. Discover how the upcoming Intelligent Octopus Go tariff changes will affect your UK energy bills and EV charging costs.",
+    image: 'https://www.financereport.online/articles/image/octopus_go_price_rise_2026.webp',
+    category: 'FinanceReport',
+    url: 'https://www.financereport.online/articles/octopus-go-price-rise-2026.html'
+  },
+  {
     id: 'tbt-13',
     title: "Capital One $425 Million Settlement: Final Approval Granted—How to Claim Your Cash in 2026",
     excerpt: "The Capital One $425 million settlement has received final approval. Discover Capital One settlement eligibility, how to claim your cash, and the 2026 claim deadline.",
