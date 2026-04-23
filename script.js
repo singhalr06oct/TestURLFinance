@@ -1,6 +1,14 @@
 const ARTICLE_DATA = [
   // FinanceReport (11 Real Articles)
   {
+    id: 'tbt-13',
+    title: "Capital One $425 Million Settlement: Final Approval Granted—How to Claim Your Cash in 2026",
+    excerpt: "The Capital One $425 million settlement has received final approval. Discover Capital One settlement eligibility, how to claim your cash, and the 2026 claim deadline.",
+    image: 'articles/image/capital_one_settlement_2026.webp',
+    category: 'FinanceReport',
+    url: 'articles/capital-one-425-million-settlement-claim-2026.html'
+  },
+  {
     id: 'tbt-12',
     title: 'Best Personal Loan Rates in the U.S. (2026) – Full Lender Comparison',
     excerpt: "Looking for the lowest interest rates on borrowed capital? Explore our full 2026 comparison of the best personal loans in the U.S. for debt consolidation and major expenses.",
