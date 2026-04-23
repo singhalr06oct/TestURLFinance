@@ -98,6 +98,46 @@ const ARTICLE_DATA = [
     url: 'https://www.tinybigtalks.online/articles/euphoria-season-3-premiere-how-to-watch.html'
   },
   {
+    id: 'zillow-lowers-home-price-outlook-2026',
+    title: "Zillow Lowers Home Price Outlook: 2026 US Housing Market Update",
+    excerpt: "Zillow has revised its home prices forecast USA downward across 400+ housing markets. Explore the US housing market trends 2026 and property values slowdown.",
+    image: 'https://www.tinybigtalks.online/articles/image/zillow_housing_market_2026.webp',
+    category: 'TinyBigTalks',
+    url: 'https://www.tinybigtalks.online/articles/zillow-lowers-home-price-outlook-2026.html'
+  },
+  {
+    id: 'crystal-palace-vs-west-ham-pl-draw-2026',
+    title: "Crystal Palace vs West Ham: Goalless Draw Confirms Wolves Relegation",
+    excerpt: "West Ham claimed a vital point at Selhurst Park to move two points clear of the drop, a result that confirmed Wolves' relegation from the Premier League.",
+    image: 'https://www.tinybigtalks.online/articles/image/crystal_palace_vs_west_ham_2026.webp',
+    category: 'TinyBigTalks',
+    url: 'https://www.tinybigtalks.online/articles/crystal-palace-vs-west-ham-premier-league-draw-2026.html'
+  },
+  {
+    id: 'timberwolves-vs-nuggets-nba-game-2-2026',
+    title: "Timberwolves vs Nuggets Game 2: Minnesota Rallies from 19 Down to Even Series",
+    excerpt: "The Timberwolves overcame a 19-point hole to defeat the Nuggets 119-114, evening the NBA Western Conference series at 1-1.",
+    image: 'https://www.tinybigtalks.online/articles/image/timberwolves_vs_nuggets_2026.webp',
+    category: 'TinyBigTalks',
+    url: 'https://www.tinybigtalks.online/articles/timberwolves-vs-nuggets-nba-playoffs-game-2-2026.html'
+  },
+  {
+    id: 'mi-gt-ipl-2026-tilak',
+    title: "MI vs GT IPL 2026: Tilak Varma's Century Powers Mumbai to 99-Run Victory",
+    excerpt: "Tilak Varma smashed a maiden 101* while Ashwani Kumar took a four-wicket haul as Mumbai Indians crushed Gujarat Titans in Ahmedabad.",
+    image: 'https://www.tinybigtalks.online/articles/image/mi_vs_gt_2026.webp',
+    category: 'TinyBigTalks',
+    url: 'https://www.tinybigtalks.online/articles/mi-vs-gt-ipl-2026-scorecard-tilak-varma.html'
+  },
+  {
+    id: 'tbt-11',
+    title: "Japan Earthquake and Tsunami Warning 2026: High Alert for 'Huge' Quake",
+    excerpt: "Japan is on high alert for quakes causing even stronger shaking following a 7.7 magnitude strike off Iwate. Tsunami warnings and mass evacuations in place.",
+    image: 'https://www.tinybigtalks.online/articles/image/japan_earthquake_2026.webp',
+    category: 'TinyBigTalks',
+    url: 'https://www.tinybigtalks.online/articles/japan-earthquake-tsunami-warning-2026.html'
+  },
+  {
     id: 'tinybigtalks-2',
     title: 'Viva Energy Geelong Oil Refinery Fire and Its Impact on Petrol Prices',
     excerpt: "A massive fire at the Viva Energy oil refinery in Geelong was extinguished after 12 hours. Discover the cause and the potential impact on Australian petrol prices amid a global fuel crunch...",
