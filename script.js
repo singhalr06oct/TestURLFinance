@@ -165,7 +165,7 @@ const ARTICLE_DATA = [
   //   id: `tinybigtalks-${i + 1}`,
   //   title: `TinyBigTalks Strategy ${i + 1}`,
   //   excerpt: 'Coming soon...',
-  //   image: 'assets/blog-default.png',
+  //   image: 'assets/blog-default.webp',
   //   category: 'TinyBigTalks',
   //   url: 'https://www.tinybigtalks.online/'
   // })),
@@ -173,7 +173,7 @@ const ARTICLE_DATA = [
   //   id: `tech-${i + 1}`,
   //   title: `Future Tech ${i + 1}`,
   //   excerpt: 'Coming soon...',
-  //   image: 'assets/blog-default.png',
+  //   image: 'assets/blog-default.webp',
   //   category: 'Tech',
   //   url: 'https://www.techreport.online/'
   // })),
@@ -181,7 +181,7 @@ const ARTICLE_DATA = [
   //   id: `life-${i + 1}`,
   //   title: `Balanced Life ${i + 1}`,
   //   excerpt: 'Coming soon...',
-  //   image: 'assets/blog-default.png',
+  //   image: 'assets/blog-default.webp',
   //   category: 'EOD Lifestyle',
   //   url: 'https://www.eodreport.online/'
   // })),
@@ -189,7 +189,7 @@ const ARTICLE_DATA = [
   //   id: `cric-${i + 1}`,
   //   title: `Cricket Highlights ${i + 1}`,
   //   excerpt: 'Coming soon...',
-  //   image: 'assets/blog-default.png',
+  //   image: 'assets/blog-default.webp',
   //   category: 'Cricket',
   //   url: 'https://www.cricketreport.online/'
   // })),
@@ -197,7 +197,7 @@ const ARTICLE_DATA = [
   //   id: `foot-${i + 1}`,
   //   title: `Football World ${i + 1}`,
   //   excerpt: 'Coming soon...',
-  //   image: 'assets/blog-default.png',
+  //   image: 'assets/blog-default.webp',
   //   category: 'Football',
   //   url: 'https://www.footballreport.online/'
   // })),
@@ -205,7 +205,7 @@ const ARTICLE_DATA = [
   //   id: `race-${i + 1}`,
   //   title: `Racing Series ${i + 1}`,
   //   excerpt: 'Coming soon...',
-  //   image: 'assets/blog-default.png',
+  //   image: 'assets/blog-default.webp',
   //   category: 'Race',
   //   url: 'https://www.racenews.online/'
   // })),
@@ -213,7 +213,7 @@ const ARTICLE_DATA = [
   //   id: `golf-${i + 1}`,
   //   title: `Golf Greens ${i + 1}`,
   //   excerpt: 'Coming soon...',
-  //   image: 'assets/blog-default.png',
+  //   image: 'assets/blog-default.webp',
   //   category: 'Golf',
   //   url: 'https://www.golfreport.online/'
   // }))
