@@ -1,5 +1,13 @@
 const ARTICLE_DATA = [
-  // FinanceReport (12 Real Articles)
+  // FinanceReport (13 Real Articles)
+  {
+    id: 'tbt-16',
+    title: "Using ChatGPT to Plan Monthly Budget (Real Case Study)",
+    excerpt: "Discover how to use ChatGPT for budgeting with a real case study. Explore AI budgeting tools, expense trackers, and personal finance prompts globally.",
+    image: 'https://www.financereport.online/articles/image/chatgpt_monthly_budget_case_study.webp',
+    category: 'FinanceReport',
+    url: 'https://www.financereport.online/articles/chatgpt-monthly-budget-case-study.html'
+  },
   {
     id: 'tbt-15',
     title: "How AI Will Replace Financial Advisors for Middle-Class Investors",
