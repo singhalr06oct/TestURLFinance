@@ -1,5 +1,13 @@
 const ARTICLE_DATA = [
-  // FinanceReport (13 Real Articles)
+  // FinanceReport (14 Real Articles)
+  {
+    id: 'tbt-17',
+    title: "Why People Stay Poor Even with High Salary",
+    excerpt: "Discover why people stay poor even with a high salary. Learn about lifestyle inflation, debt traps, and the money mistakes high earners make globally.",
+    image: 'https://www.financereport.online/articles/image/high_salary_stay_poor.webp',
+    category: 'FinanceReport',
+    url: 'https://www.financereport.online/articles/high-salary-stay-poor.html'
+  },
   {
     id: 'tbt-16',
     title: "Using ChatGPT to Plan Monthly Budget (Real Case Study)",
