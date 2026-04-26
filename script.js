@@ -1,5 +1,13 @@
 const ARTICLE_DATA = [
-  // FinanceReport (11 Real Articles)
+  // FinanceReport (12 Real Articles)
+  {
+    id: 'tbt-15',
+    title: "How AI Will Replace Financial Advisors for Middle-Class Investors",
+    excerpt: "Discover why middle-class investors are ditching traditional financial advisors for AI. Learn about the best robo advisors, AI investment tools, and low-cost alternatives globally.",
+    image: 'https://www.financereport.online/articles/image/ai_financial_advisor_middle_class.webp',
+    category: 'FinanceReport',
+    url: 'https://www.financereport.online/articles/ai-replaces-financial-advisors-middle-class.html'
+  },
   {
     id: 'tbt-14',
     title: "Octopus Go Price Rise 2026: May Update on Tariffs & Rates",

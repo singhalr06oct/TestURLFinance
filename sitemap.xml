@@ -126,4 +126,10 @@
     <priority>0.9</priority>
     <changefreq>daily</changefreq>
   </url>
+  <url>
+    <loc>https://www.financereport.online/articles/ai-replaces-financial-advisors-middle-class.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.9</priority>
+    <changefreq>daily</changefreq>
+  </url>
 </urlset>
