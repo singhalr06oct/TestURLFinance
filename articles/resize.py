@@ -2,8 +2,8 @@ import os
 import textwrap
 from PIL import Image, ImageDraw, ImageFont
 
-img_path = r'C:\Users\rohit\.gemini\antigravity\brain\80ddd8f6-b8d8-4b43-972f-f7f3836cc305\ai_printing_money_tech_earnings_2026_1777528785344.png'
-out_path = r'c:\Users\rohit\.gemini\antigravity\playground\singhalr\TestURLFinance\articles\image\ai_printing_money_tech_earnings_2026.webp'
+img_path = r'C:\Users\rohit\.gemini\antigravity\brain\80ddd8f6-b8d8-4b43-972f-f7f3836cc305\ai_driven_revenue_models_2026_1777530456400.png'
+out_path = r'c:\Users\rohit\.gemini\antigravity\playground\singhalr\TestURLFinance\articles\image\ai_driven_revenue_models_2026.webp'
 
 os.makedirs(os.path.dirname(out_path), exist_ok=True)
 
@@ -31,7 +31,7 @@ draw.rectangle((brand_x-15, brand_y-10, brand_x+brand_w+15, brand_y+brand_h+10),
 draw.text((brand_x, brand_y), brand_text, fill="white", font=brand_font)
 
 # Main Title Text
-headline_text = "AI Is Printing Money:\nTech Earnings 2026"
+headline_text = "AI-Driven Revenue Models:\nThe Next Evolution"
 try:
     headline_font = ImageFont.truetype("arialbd.ttf", 48)
 except IOError:
