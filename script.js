@@ -1,5 +1,13 @@
 const ARTICLE_DATA = [
-  // FinanceReport (14 Real Articles)
+  // FinanceReport (15 Real Articles)
+  {
+    id: 'tbt-18',
+    title: "Alphabet Tops Q1 Estimates on Strong Google Cloud Growth & AI Boom",
+    excerpt: "Alphabet's Q1 2026 earnings report reveals massive Google Cloud growth fueled by AI investment. Explore the latest Google stock price trends, Sundar Pichai's insights, and global tech impacts.",
+    image: 'https://www.financereport.online/articles/image/google_alphabet_earnings_2026.webp',
+    category: 'FinanceReport',
+    url: 'https://www.financereport.online/articles/alphabet-google-q1-earnings-2026-cloud-ai-growth.html'
+  },
   {
     id: 'tbt-17',
     title: "Why People Stay Poor Even with High Salary",
