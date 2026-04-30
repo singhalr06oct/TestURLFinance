@@ -60,9 +60,9 @@ const ARTICLE_DATA = [
     id: 'tbt-13',
     title: "Capital One $425 Million Settlement: Final Approval Granted—How to Claim Your Cash in 2026",
     excerpt: "The Capital One $425 million settlement has received final approval. Discover Capital One settlement eligibility, how to claim your cash, and the 2026 claim deadline.",
-    image: 'articles/image/capital_one_settlement_2026.webp',
+    image: 'https://www.financereport.online/articles/image/capital_one_settlement_2026.webp',
     category: 'FinanceReport',
-    url: 'articles/capital-one-425-million-settlement-claim-2026.html'
+    url: 'https://www.financereport.online/articles/capital-one-425-million-settlement-claim-2026.html'
   },
   {
     id: 'tbt-12',

@@ -359,85 +359,8 @@
             <div class="category-label">Recommended for You</div>
             <div class="category-line"></div>
         </div>
-        <div class="articles-grid grid-5-cols">
-            <a href="https://www.financereport.online/articles/top-7-no-annual-fee-credit-cards.html">
-                <article class="article-card">
-                    <img src="https://www.financereport.online/articles/image/top_7_no_fee_cards.webp"
-                        alt="Top 7 No Fee Credit Cards" class="article-image" loading="lazy" width="300" height="170">
-                    <div class="article-content">
-                        <h2 class="article-title">Top 7 No Annual Fee Credit Cards (Hidden Rewards You're Missing)</h2>
-                        <p class="article-excerpt">Stop paying annual fees to get premium rewards. Discover the Top 7 no
-                            annual fee credit cards in 2026 and unlock the hidden cash back and travel rewards you are
-                            missing.</p>
-                        <span class="read-more">[Read more]</span>
-                    </div>
-                </article>
-            </a>
-            <a href="https://www.financereport.online/articles/ai-tools-for-personal-finance-2026.html">
-                <article class="article-card">
-                    <img src="https://www.financereport.online/articles/image/ai_finance_2026.webp"
-                        alt="AI Finance 2026" class="article-image" loading="lazy" width="300" height="170">
-                    <div class="article-content">
-                        <h2 class="article-title">AI Tools For Personal Finance 2026: Optimize Your Wealth</h2>
-                        <p class="article-excerpt">Discover how to optimize your personal finance in 2026 with the top 5
-                            AI tools. Learn about automated budgeting, smart investments, and financial planning
-                            platforms....</p>
-                        <span class="read-more">[Read more]</span>
-                    </div>
-                </article>
-            </a>
-            <a href="https://www.financereport.online/articles/e-urzad-skarbowy-app-poland.html">
-                <article class="article-card">
-                    <img src="https://www.financereport.online/articles/image/polish_tax_office_app.webp"
-                        alt="Polish Tax App" class="article-image" loading="lazy" width="300" height="170">
-                    <div class="article-content">
-                        <h2 class="article-title">Polish Tax Office Enters Smartphones: The e-Urząd Skarbowy Revolution
-                        </h2>
-                        <p class="article-excerpt">Discover the features of Poland's e-Urząd Skarbowy mobile app. With
-                            the tax office now on their smartphones, Poles can file taxes, receive letters, and pay
-                            securely via BLIK 24/7.....</p>
-                        <span class="read-more">[Read more]</span>
-                    </div>
-                </article>
-            </a>
-            <a href="https://www.financereport.online/articles/ai-tools-for-personal-finance-2026.html">
-                <article class="article-card">
-                    <img src="https://www.financereport.online/articles/image/ai_finance_2026.webp"
-                        alt="AI Finance 2026" class="article-image" loading="lazy" width="300" height="170">
-                    <div class="article-content">
-                        <h2 class="article-title">AI Tools For Personal Finance 2026: Optimize Your Wealth</h2>
-                        <p class="article-excerpt">Discover how to optimize your personal finance in 2026 with the top 5
-                            AI tools. Learn about automated budgeting, smart investments, and financial planning
-                            platforms....</p>
-                        <span class="read-more">[Read more]</span>
-                    </div>
-                </article>
-            </a>
-            <a href="https://www.financereport.online/articles/zus-recalculates-june-pensions-poland.html">
-                <article class="article-card">
-                    <img src="https://www.financereport.online/articles/image/zus_pensions_poland.webp"
-                        alt="ZUS Pensions Poland" class="article-image" loading="lazy" width="300" height="170">
-                    <div class="article-content">
-                        <h2 class="article-title">ZUS Recalculates June Pensions: Polish Retirees See Major Relief</h2>
-                        <p class="article-excerpt">The long-standing dispute over June pensions in Poland is finally
-                            over. ZUS has recalculated the payouts, adding up to 163 PLN to retirees' wallets. Read the
-                            full financial breakdown...</p>
-                        <span class="read-more">[Read more]</span>
-                    </div>
-                </article>
-            </a>
-            <a href="https://www.tinybigtalks.online/articles/euphoria-season-3-premiere-how-to-watch.html">
-                <article class="article-card">
-                    <img src="https://www.tinybigtalks.online/articles/image/euphoria-season-3.webp"
-                        alt="Euphoria Season 3" class="article-image" loading="lazy" width="300" height="170">
-                    <div class="article-content">
-                        <h2 class="article-title">Euphoria Season 3 Premiere: Date & How to Watch</h2>
-                        <p class="article-excerpt">Get the 'Euphoria' Season 3 premiere details, release date, and full
-                            episode schedule. Learn how to watch Zendaya return to HBO Max in April 2026.</p>
-                        <span class="read-more">[Read more]</span>
-                    </div>
-                </article>
-            </a>
+        <div class="articles-grid grid-5-cols" id="recommended-articles-grid">
+            <!-- Random articles will be injected here via JS -->
         </div>
     </section>
 
@@ -450,6 +373,17 @@
         const CURRENT_ARTICLE_ID = 'best-credit-4994484-cards-us-2026'; // Unique ID for this article
     </script>
     <script src="article-shared.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            if (typeof ARTICLE_DATA !== 'undefined' && typeof renderArticles === 'function') {
+                const currentUrlPath = window.location.pathname.split('/').pop();
+                const availableArticles = ARTICLE_DATA.filter(a => !a.url.includes(currentUrlPath));
+                const shuffled = availableArticles.sort(() => 0.5 - Math.random());
+                const selected = shuffled.slice(0, 5);
+                renderArticles(selected, 'recommended-articles-grid');
+            }
+        });
+    </script>
 </body>
 
 </html>
