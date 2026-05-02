@@ -1,5 +1,13 @@
 const ARTICLE_DATA = [
-  // FinanceReport (18 Real Articles)
+  // FinanceReport (19 Real Articles)
+  {
+    id: 'tbt-22',
+    title: "Airline Bankruptcies Are Back: Who's Next After Spirit Airlines?",
+    excerpt: "As Spirit Airlines shuts down globally, investors ask 'which airline will fail next?' Explore the global aviation crisis of 2026 and what it means for cheap flights.",
+    image: 'https://www.financereport.online/articles/image/airline_bankruptcies_2026.webp',
+    category: 'FinanceReport',
+    url: 'https://www.financereport.online/articles/airline-bankruptcies-are-back-whos-next-after-spirit.html'
+  },
   {
     id: 'tbt-21',
     title: "Spirit Airlines Shuts Down Global Operations After Failed Rescue Talks 2026",
