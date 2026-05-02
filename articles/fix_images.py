@@ -3,9 +3,9 @@ from PIL import Image, ImageDraw, ImageFont
 
 images = [
     {
-        "in": r"C:\Users\rohit\.gemini\antigravity\brain\80ddd8f6-b8d8-4b43-972f-f7f3836cc305\airline_bankruptcies_2026_clean_1777718565145.png",
-        "out": r"c:\Users\rohit\.gemini\antigravity\playground\singhalr\TestURLFinance\articles\image\airline_bankruptcies_2026.webp",
-        "title": "Airline Bankruptcies Are Back:\nWho's Next After Spirit?"
+        "in": r"C:\Users\rohit\.gemini\antigravity\brain\80ddd8f6-b8d8-4b43-972f-f7f3836cc305\multibagger_penny_stocks_2026_clean_1777719288670.png",
+        "out": r"c:\Users\rohit\.gemini\antigravity\playground\singhalr\TestURLFinance\articles\image\multibagger_penny_stocks_2026.webp",
+        "title": "Multibagger Penny Stocks 2026:\nTurning Small Caps into Millions"
     }
 ]
 

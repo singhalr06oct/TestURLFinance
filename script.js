@@ -1,5 +1,13 @@
 const ARTICLE_DATA = [
-  // FinanceReport (19 Real Articles)
+  // FinanceReport (20 Real Articles)
+  {
+    id: 'tbt-23',
+    title: "Multibagger Penny Stocks 2026: Turning Small Caps into Millions",
+    excerpt: "Discover the top multibagger penny stocks of 2026. Learn how cheap stocks generated huge returns, turning $1,000 into millions in the global stock market.",
+    image: 'https://www.financereport.online/articles/image/multibagger_penny_stocks_2026.webp',
+    category: 'FinanceReport',
+    url: 'https://www.financereport.online/articles/multibagger-penny-stocks-high-growth-small-caps-2026.html'
+  },
   {
     id: 'tbt-22',
     title: "Airline Bankruptcies Are Back: Who's Next After Spirit Airlines?",
