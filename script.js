@@ -1,5 +1,13 @@
 const ARTICLE_DATA = [
-  // FinanceReport (17 Real Articles)
+  // FinanceReport (18 Real Articles)
+  {
+    id: 'tbt-21',
+    title: "Spirit Airlines Shuts Down Global Operations After Failed Rescue Talks 2026",
+    excerpt: "Did Spirit Airlines go out of business? Yes, Spirit Airlines has officially shut down in 2026. Read the latest updates on cancelled flights and why the airline failed.",
+    image: 'https://www.financereport.online/articles/image/spirit_airlines_shutdown_2026.webp',
+    category: 'FinanceReport',
+    url: 'https://www.financereport.online/articles/spirit-airlines-shuts-down-global-operations-2026.html'
+  },
   {
     id: 'tbt-20',
     title: "AI-Driven Revenue Models: The Next Evolution of Corporate Profitability",

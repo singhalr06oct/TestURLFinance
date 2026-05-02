@@ -3,19 +3,9 @@ from PIL import Image, ImageDraw, ImageFont
 
 images = [
     {
-        "in": r"C:\Users\rohit\.gemini\antigravity\brain\80ddd8f6-b8d8-4b43-972f-f7f3836cc305\google_alphabet_earnings_2026_clean_1777530822278.png",
-        "out": r"c:\Users\rohit\.gemini\antigravity\playground\singhalr\TestURLFinance\articles\image\google_alphabet_earnings_2026.webp",
-        "title": "Alphabet Tops Q1 Estimates on\nStrong Google Cloud Growth"
-    },
-    {
-        "in": r"C:\Users\rohit\.gemini\antigravity\brain\80ddd8f6-b8d8-4b43-972f-f7f3836cc305\ai_printing_money_tech_earnings_2026_clean_1777530838087.png",
-        "out": r"c:\Users\rohit\.gemini\antigravity\playground\singhalr\TestURLFinance\articles\image\ai_printing_money_tech_earnings_2026.webp",
-        "title": "AI Is Printing Money:\nTech Earnings 2026"
-    },
-    {
-        "in": r"C:\Users\rohit\.gemini\antigravity\brain\80ddd8f6-b8d8-4b43-972f-f7f3836cc305\ai_driven_revenue_models_2026_clean_1777530854792.png",
-        "out": r"c:\Users\rohit\.gemini\antigravity\playground\singhalr\TestURLFinance\articles\image\ai_driven_revenue_models_2026.webp",
-        "title": "AI-Driven Revenue Models:\nThe Next Evolution"
+        "in": r"C:\Users\rohit\.gemini\antigravity\brain\80ddd8f6-b8d8-4b43-972f-f7f3836cc305\spirit_airlines_shutdown_2026_clean_1777717864820.png",
+        "out": r"c:\Users\rohit\.gemini\antigravity\playground\singhalr\TestURLFinance\articles\image\spirit_airlines_shutdown_2026.webp",
+        "title": "Spirit Airlines Shuts Down:\nGlobal Flights Halted"
     }
 ]
 
