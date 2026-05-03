@@ -1,6 +1,14 @@
 const ARTICLE_DATA = [
   // FinanceReport (21 Real Articles)
   {
+    id: 'tbt-25',
+    title: "I Compared Cost of Living in 10 Countries – The Results Will Shock You",
+    excerpt: "Discover the shocking truth about the cost of living across 10 major countries in 2026. From the USA to India, compare expenses, salaries, and find the best places to live.",
+    image: 'https://www.financereport.online/articles/image/cost-of-living-2026.webp',
+    category: 'FinanceReport',
+    url: 'https://www.financereport.online/articles/cost-of-living-comparison-10-countries-2026.html'
+  },
+  {
     id: 'tbt-24',
     title: "The 50-30-20 Rule Is Dead: Smarter Budgeting Strategies That Actually Work in 2026",
     excerpt: "Explore the best alternatives to the 50-30-20 rule for smarter budgeting in 2026. Plus, why Breeze Airways is leading the news and how to manage your money better globally.",
