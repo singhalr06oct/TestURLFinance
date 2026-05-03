@@ -1,5 +1,13 @@
 const ARTICLE_DATA = [
-  // FinanceReport (20 Real Articles)
+  // FinanceReport (21 Real Articles)
+  {
+    id: 'tbt-24',
+    title: "The 50-30-20 Rule Is Dead: Smarter Budgeting Strategies That Actually Work in 2026",
+    excerpt: "Explore the best alternatives to the 50-30-20 rule for smarter budgeting in 2026. Plus, why Breeze Airways is leading the news and how to manage your money better globally.",
+    image: 'https://www.financereport.online/articles/image/smarter-budgeting-2026.webp',
+    category: 'FinanceReport',
+    url: 'https://www.financereport.online/articles/smarter-budgeting-strategies-2026.html'
+  },
   {
     id: 'tbt-23',
     title: "Multibagger Penny Stocks 2026: Turning Small Caps into Millions",
