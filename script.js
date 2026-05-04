@@ -1,6 +1,14 @@
 const ARTICLE_DATA = [
   // FinanceReport (21 Real Articles)
   {
+    id: 'irs-covid-refund-deadline-july-2026',
+    title: "IRS COVID Refund Deadline 2026: Millions Still Eligible for Pandemic Tax Refunds",
+    excerpt: "The IRS has announced the final deadline for COVID-era tax refunds. Millions of taxpayers may be owed money from 2020 and 2021. Learn about eligibility and the July 2026 deadline.",
+    image: 'https://www.financereport.online/articles/image/irs_covid_refund_deadline_2026.webp',
+    category: 'FinanceReport',
+    url: 'https://www.financereport.online/articles/irs-covid-refund-deadline-july-2026.html'
+  },
+  {
     id: 'tbt-25',
     title: "I Compared Cost of Living in 10 Countries – The Results Will Shock You",
     excerpt: "Discover the shocking truth about the cost of living across 10 major countries in 2026. From the USA to India, compare expenses, salaries, and find the best places to live.",
