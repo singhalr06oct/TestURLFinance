@@ -1,6 +1,14 @@
 const ARTICLE_DATA = [
   // FinanceReport (21 Real Articles)
   {
+    id: 'hidden-wealth-shift-why-millions-getting-richer',
+    title: "The Hidden Wealth Shift: Why Millions Are Getting Richer Without Noticing",
+    excerpt: "Explore the silent wealth explosion of 2026. Discover how the global middle class is building wealth through passive income and smart financial habits without even noticing it.",
+    image: 'https://www.financereport.online/articles/image/hidden-wealth-shift-2026.webp',
+    category: 'FinanceReport',
+    url: 'https://www.financereport.online/articles/hidden-wealth-shift-why-millions-getting-richer.html'
+  },
+  {
     id: 'irs-covid-refund-deadline-july-2026',
     title: "IRS COVID Refund Deadline 2026: Millions Still Eligible for Pandemic Tax Refunds",
     excerpt: "The IRS has announced the final deadline for COVID-era tax refunds. Millions of taxpayers may be owed money from 2020 and 2021. Learn about eligibility and the July 2026 deadline.",
