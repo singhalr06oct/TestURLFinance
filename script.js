@@ -1,6 +1,14 @@
 const ARTICLE_DATA = [
   // FinanceReport (21 Real Articles)
   {
+    id: 'trump-policies-money-2026-impact',
+    title: "How Donald Trump Policies Could Impact Your Money in 2026",
+    excerpt: "Analyze the potential impact of Donald Trump's economic policies on personal finance, inflation, and global markets in 2026. Stay informed on tax plans and trade shifts.",
+    image: 'https://www.financereport.online/articles/image/trump-policies-2026-impact.webp',
+    category: 'FinanceReport',
+    url: 'https://www.financereport.online/articles/how-donald-trump-policies-impact-your-money-2026.html'
+  },
+  {
     id: 'hidden-wealth-shift-why-millions-getting-richer',
     title: "The Hidden Wealth Shift: Why Millions Are Getting Richer Without Noticing",
     excerpt: "Explore the silent wealth explosion of 2026. Discover how the global middle class is building wealth through passive income and smart financial habits without even noticing it.",
