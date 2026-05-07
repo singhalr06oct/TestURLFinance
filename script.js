@@ -1,6 +1,14 @@
 const ARTICLE_DATA = [
   // FinanceReport (21 Real Articles)
   {
+    id: 'sk-hynix-shares-rally-ai-chip-demand-2026',
+    title: "SK Hynix Shares Rally 12% as AI Chip Demand Surges: What Investors Need to Know in 2026",
+    excerpt: "SK Hynix shares surge 12% as AI chip demand reaches new heights. Discover the SK Hynix stock rally 2026, Nvidia partnership impact, and HBM chip growth analysis.",
+    image: 'https://www.financereport.online/articles/image/sk-hynix-shares-rally-2026.webp',
+    category: 'FinanceReport',
+    url: 'https://www.financereport.online/articles/sk-hynix-shares-rally-ai-chip-demand-2026.html'
+  },
+  {
     id: 'blue-cross-blue-shield-settlement-payout-2026',
     title: "Blue Cross Blue Shield $2.67 Billion Settlement: Check Your Payout Eligibility in 2026",
     excerpt: "The Blue Cross Blue Shield $2.67 billion settlement is issuing payments in 2026. Discover BCBS settlement eligibility, claim status, and find out if you qualify for a payout.",
