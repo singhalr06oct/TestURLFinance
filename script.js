@@ -1,6 +1,14 @@
 const ARTICLE_DATA = [
   // FinanceReport (21 Real Articles)
   {
+    id: 'top-5-global-events-today-2026',
+    title: "Top 5 Global Events You Should Know Today",
+    excerpt: "Stay informed with the top 5 global events today. Explore breaking world news 2026, international headlines, and the biggest stories shaping our planet.",
+    image: 'https://www.financereport.online/articles/image/top-5-global-events-today-2026.webp',
+    category: 'FinanceReport',
+    url: 'https://www.financereport.online/articles/top-5-global-events-today-may-2026.html'
+  },
+  {
     id: 'sk-hynix-shares-rally-ai-chip-demand-2026',
     title: "SK Hynix Shares Rally 12% as AI Chip Demand Surges: What Investors Need to Know in 2026",
     excerpt: "SK Hynix shares surge 12% as AI chip demand reaches new heights. Discover the SK Hynix stock rally 2026, Nvidia partnership impact, and HBM chip growth analysis.",
