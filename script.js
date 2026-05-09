@@ -1,6 +1,14 @@
 const ARTICLE_DATA = [
   // FinanceReport (21 Real Articles)
   {
+    id: 'gold-prices-go-viral-2026',
+    title: "Gold Prices Go Viral — Here’s Why Everyone Is Talking About It",
+    excerpt: "Gold prices are trending after reaching a new record high in 2026. Here’s everything we know so far, including the latest updates, public reactions, key details, and what could happen next.",
+    image: 'https://www.financereport.online/articles/image/gold-prices-go-viral-2026.webp',
+    category: 'FinanceReport',
+    url: 'https://www.financereport.online/articles/gold-prices-go-viral-2026.html'
+  },
+  {
     id: 'top-5-global-events-today-2026',
     title: "Top 5 Global Events You Should Know Today",
     excerpt: "Stay informed with the top 5 global events today. Explore breaking world news 2026, international headlines, and the biggest stories shaping our planet.",
