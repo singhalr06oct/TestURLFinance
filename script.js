@@ -1,6 +1,14 @@
 const ARTICLE_DATA = [
   // FinanceReport (21 Real Articles)
   {
+    id: 'beginner-investing-viral-2026',
+    title: "Beginner Investing Trends Go Viral — Here’s Why Everyone Is Talking About It",
+    excerpt: "Beginner investing trends are trending after a surprise surge in retail participation during the 2026 market uncertainty. Here’s everything we know so far, including the latest updates, public reactions, key details, and what could happen next.",
+    image: 'https://www.financereport.online/articles/image/beginner-investing-viral-2026.webp',
+    category: 'FinanceReport',
+    url: 'https://www.financereport.online/articles/beginner-investing-viral-2026.html'
+  },
+  {
     id: 'luxury-spending-viral-2026',
     title: "Luxury Spending Trends Go Viral — Here’s Why Everyone Is Talking About It",
     excerpt: "Luxury spending trends are trending after a surprise surge in sales during the 2026 economic slowdown. Here’s everything we know so far, including the latest updates, public reactions, key details, and what could happen next.",
