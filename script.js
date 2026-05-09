@@ -1,6 +1,14 @@
 const ARTICLE_DATA = [
   // FinanceReport (21 Real Articles)
   {
+    id: 'luxury-spending-viral-2026',
+    title: "Luxury Spending Trends Go Viral — Here’s Why Everyone Is Talking About It",
+    excerpt: "Luxury spending trends are trending after a surprise surge in sales during the 2026 economic slowdown. Here’s everything we know so far, including the latest updates, public reactions, key details, and what could happen next.",
+    image: 'https://www.financereport.online/articles/image/luxury-spending-viral-2026.webp',
+    category: 'FinanceReport',
+    url: 'https://www.financereport.online/articles/luxury-spending-viral-2026.html'
+  },
+  {
     id: 'gold-prices-go-viral-2026',
     title: "Gold Prices Go Viral — Here’s Why Everyone Is Talking About It",
     excerpt: "Gold prices are trending after reaching a new record high in 2026. Here’s everything we know so far, including the latest updates, public reactions, key details, and what could happen next.",
