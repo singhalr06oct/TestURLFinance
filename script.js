@@ -1,6 +1,14 @@
 const ARTICLE_DATA = [
   // FinanceReport (21 Real Articles)
   {
+    id: 'social-security-may-13-viral',
+    title: "May 13 Social Security Check Goes Viral — Why Everyone Talking About It",
+    excerpt: "May 13 social security check is trending after the SSA announced the payment schedule for May 2026. Here’s everything we know so far, including the latest updates, public reactions, key details, and what could happen next.",
+    image: 'https://www.financereport.online/articles/image/social-security-may-13-viral.webp',
+    category: 'FinanceReport',
+    url: 'https://www.financereport.online/articles/social-security-may-13-viral.html'
+  },
+  {
     id: 'beginner-investing-viral-2026',
     title: "Beginner Investing Trends Go Viral — Here’s Why Everyone Is Talking About It",
     excerpt: "Beginner investing trends are trending after a surprise surge in retail participation during the 2026 market uncertainty. Here’s everything we know so far, including the latest updates, public reactions, key details, and what could happen next.",
