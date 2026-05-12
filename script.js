@@ -282,6 +282,78 @@ const ARTICLE_DATA = [
   },
   // Other categories (restoring previous counts)
   {
+    id: 'eileen-wang-resigns-goes-viral-2026',
+    title: "Eileen Wang Resigns Goes Viral — Why Everyone Talking About It",
+    excerpt: "Eileen Wang Resigns is trending after the Arcadia mayor stepped down over charges of acting as an illegal agent for China. Here’s everything we know so far, including the latest updates, public reactions, key details, and what could happen next.",
+    image: 'https://www.tinybigtalks.online/articles/image/eileen_wang_resigns_2026.webp',
+    category: 'TinyBigTalks',
+    url: 'https://www.tinybigtalks.online/articles/eileen-wang-resigns-goes-viral-2026.html'
+  },
+  {
+    id: 'hannah-harper-american-idol-win-goes-viral-2026',
+    title: "Hannah Harper American Idol Win Goes Viral — Why Everyone Discuss This",
+    excerpt: "Hannah Harper is trending after winning American Idol Season 24. Here’s everything we know so far, including the latest updates, public reactions, key details, and what could happen next.",
+    image: 'https://www.tinybigtalks.online/articles/image/american_idol_winner_2026.webp',
+    category: 'TinyBigTalks',
+    url: 'https://www.tinybigtalks.online/articles/hannah-harper-american-idol-win-goes-viral-2026.html'
+  },
+  {
+    id: 'top-tech-products-launching-may-2026-goes-viral',
+    title: "May 2026 Tech Product Launches Go Viral — Here’s Why Everyone Is Talking About It",
+    excerpt: "May 2026 Tech Product Launches is trending after a wave of innovative announcements from big tech. Here’s everything we know so far, including the latest updates, public reactions, key details, and what could happen next.",
+    image: 'https://www.tinybigtalks.online/articles/image/tech_launches_may_2026.webp',
+    category: 'TinyBigTalks',
+    url: 'https://www.tinybigtalks.online/articles/top-tech-products-launching-may-2026-goes-viral.html'
+  },
+  {
+    id: 'what-everyone-is-watching-driving-and-buying-in-2026',
+    title: "2026 Consumer Trends Go Viral — Here’s Why Everyone Is Talking About It",
+    excerpt: "2026 Consumer Trends is trending after a massive surge in AI gadgets and electric vehicles. Here’s everything we know so far, including the latest updates, public reactions, and key details.",
+    image: 'https://www.tinybigtalks.online/articles/image/consumer_trends_2026.webp',
+    category: 'TinyBigTalks',
+    url: 'https://www.tinybigtalks.online/articles/what-everyone-is-watching-driving-and-buying-in-2026.html'
+  },
+  {
+    id: 'canvas-hack-goes-viral-instructure-2026',
+    title: "Canvas Hack Goes Viral — Here’s Why Everyone Is Talking About It",
+    excerpt: "Canvas is trending after reports of a massive data breach affecting millions of users. Here’s everything we know so far, including the latest updates and public reactions.",
+    image: 'https://www.tinybigtalks.online/articles/image/canvas_hack_2026.webp',
+    category: 'TinyBigTalks',
+    url: 'https://www.tinybigtalks.online/articles/canvas-hack-goes-viral-instructure-2026.html'
+  },
+  {
+    id: 'mississippi-tornado-damage-homes-destroyed-2026',
+    title: "Tornadoes Tear Through Mississippi: 400 Homes Damaged and Multiple Injured (2026)",
+    excerpt: "A devastating tornado outbreak in Mississippi has left roughly 400 homes damaged and at least 17 people injured. Explore the latest updates, damage reports, and rescue operations.",
+    image: 'https://www.tinybigtalks.online/articles/image/mississippi_tornado_2026.webp',
+    category: 'TinyBigTalks',
+    url: 'https://www.tinybigtalks.online/articles/mississippi-tornado-damage-homes-destroyed-2026.html'
+  },
+  {
+    id: 'billie-eilish-nat-wolff-red-carpet-debut-concert-film-2026',
+    title: "Billie Eilish and Nat Wolff Make Stunning Red Carpet Debut at Hit Me Hard and Soft Premiere (2026)",
+    excerpt: "Billie Eilish and Nat Wolff officially debuted on the red carpet for her concert film premiere. Explore the latest news on their relationship, career updates, and global reaction.",
+    image: 'https://www.tinybigtalks.online/articles/image/billie_eilish_nat_wolff_debut_2026.webp',
+    category: 'TinyBigTalks',
+    url: 'https://www.tinybigtalks.online/articles/billie-eilish-nat-wolff-red-carpet-debut-concert-film-2026.html'
+  },
+  {
+    id: 'hayden-panettiere-comes-out-bisexual-dating-women-2026',
+    title: "Hayden Panettiere Comes Out as Bisexual: No One Ever Encouraged Me to Be Myself",
+    excerpt: "Nashville and Scream star Hayden Panettiere has come out as bisexual in a powerful 2026 interview. Explore her LGBTQ journey, dating women, and personal reveal.",
+    image: 'https://www.tinybigtalks.online/articles/image/hayden_panettiere_bisexual_reveal_2026.webp',
+    category: 'TinyBigTalks',
+    url: 'https://www.tinybigtalks.online/articles/hayden-panettiere-comes-out-bisexual-dating-women-2026.html'
+  },
+  {
+    id: 'ted-turner-dies-cnn-founder-legacy-2026',
+    title: "Ted Turner Dies at 87: The Visionary Legacy of CNN's Founder (1938-2026)",
+    excerpt: "Ted Turner, the legendary founder of CNN and media mogul, has passed away. Explore his life, legacy, net worth 2026, and his impact on global news and sports.",
+    image: 'https://www.tinybigtalks.online/articles/image/ted_turner_tribute_2026.webp',
+    category: 'TinyBigTalks',
+    url: 'https://www.tinybigtalks.online/articles/ted-turner-dies-cnn-founder-legacy-2026.html'
+  },
+  {
     id: 'tinybigtalks-1',
     title: 'Euphoria Season 3 Premiere: Date & How to Watch',
     excerpt: "Get the 'Euphoria' Season 3 premiere details, release date, and full episode schedule. Learn how to watch Zendaya return to HBO Max in April 2026....",
