@@ -1,6 +1,14 @@
 const ARTICLE_DATA = [
   // FinanceReport (21 Real Articles)
   {
+    id: 'iran-ceasefire-life-support-viral',
+    title: "Iran Ceasefire on Life Support Goes Viral — Why Everyone discuss About It",
+    excerpt: "Iran ceasefire on life support is trending after Trump's comments on the fragility of the truce. Here’s everything we know so far, including the latest updates, public reactions, key details, and what could happen next.",
+    image: 'https://www.financereport.online/articles/image/iran-ceasefire-life-support-viral.webp',
+    category: 'FinanceReport',
+    url: 'https://www.financereport.online/articles/iran-ceasefire-life-support-viral.html'
+  },
+  {
     id: 'social-security-may-13-viral',
     title: "May 13 Social Security Check Goes Viral — Why Everyone Talking About It",
     excerpt: "May 13 social security check is trending after the SSA announced the payment schedule for May 2026. Here’s everything we know so far, including the latest updates, public reactions, key details, and what could happen next.",
